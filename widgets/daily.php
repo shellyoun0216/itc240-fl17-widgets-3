@@ -10,7 +10,7 @@ if(isset($_GET['day']))
     
     
 ?>
-<?php include 'includes/header.php'?>
+<?php get_header()?>
 <h3>Daily</h3>
 <p>Current contents of the variable day: <?=$day?></p>
 <p><a href="?day=Monday">Monday</a></p>
@@ -22,4 +22,4 @@ if(isset($_GET['day']))
 <p><a href="?day=Sunday">Sunday</a></p>
 
 
-<?php include 'includes/footer.php'?>
+<?php get_footer()?>

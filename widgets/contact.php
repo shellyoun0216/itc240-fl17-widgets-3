@@ -1,6 +1,6 @@
 <?php include 'includes/config.php' ?>
-<?php include 'includes/header.php' ?>
-	<?php //form1.php
+<?php get_header()?>	
+  <?php //form1.php
 
     //put client's email address here
     $to = 'I-hsuan.Oun@seattlecolleges.edu';
@@ -86,7 +86,7 @@
 
 	?>
 
-<?php include 'includes/footer.php';
+<?php get_header();
   
   function clean_post($key)
 {

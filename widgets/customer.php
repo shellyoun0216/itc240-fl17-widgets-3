@@ -1,5 +1,5 @@
 <?php include 'includes/config.php' ?>
-<?php include 'includes/header.php' ?>
+<?php get_header()?>
 
 	<h3>Customers</h3>
 	
@@ -28,4 +28,4 @@
 
 	?>
 
-<?php include 'includes/footer.php' ?>
+<?php get_footer()?>
